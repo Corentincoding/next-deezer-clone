@@ -12,7 +12,7 @@ export default async function AlbumsPage() {
       <ul>
         {albums.map((a) => (
           <li key={a.id} className="border-b py-2">
-            <Link href={`/albums/${a.id}`} className="text-blue-600 hover:underline">
+            <Link href={`/api/albums/${a.id}`} className="text-blue-600 hover:underline">
               {a.title} — {a.artist}
             </Link>
           </li>

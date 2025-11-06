@@ -5,7 +5,7 @@ export default function AlbumsLayout({ children }: { children: React.ReactNode }
         <h2 className="text-2xl font-bold mb-4">🎵 Deezer Clone</h2>
         <ul>
           <li>
-            <a href="/albums" className="text-blue-600 hover:underline">
+            <a href="/api/albums" className="text-blue-600 hover:underline">
               Albums
             </a>
           </li>
